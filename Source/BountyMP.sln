@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.1705
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BountyMP", "BountyMP\BountyMP.csproj", "{023764C1-D41B-4273-A2BD-0B9B9182D578}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Client|x64 = Client|x64
+		Server|x64 = Server|x64
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{023764C1-D41B-4273-A2BD-0B9B9182D578}.Client|x64.ActiveCfg = Client|x64
+		{023764C1-D41B-4273-A2BD-0B9B9182D578}.Client|x64.Build.0 = Client|x64
+		{023764C1-D41B-4273-A2BD-0B9B9182D578}.Server|x64.ActiveCfg = Server|x64
+		{023764C1-D41B-4273-A2BD-0B9B9182D578}.Server|x64.Build.0 = Server|x64
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {812F1AE6-C487-40B3-8FB3-DC9292F0E65D}
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<base xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" type="string">
+  <strings>
+    <string id="str_multiplayer_official_game_type_name.BountyMP" text="{=*}Bounty" />
+    <string id="str_multiplayer_official_game_type_explainer.BountyMP" text="{=*}·   Every player starts with 3 bounty points{newline}·   Kill enemies to get half of their bounties{newline}·   The team with more bounty score wins the game" />
+    <string id="str_multiplayer_game_type.BountyMP" text="{=*}Bounty" />
+  </strings>
+</base>

@@ -1,0 +1,9 @@
+<Brushes>
+  <Brush Name="MPBounty.Info.Text" Font="FiraSansExtraCondensed-Regular" TextHorizontalAlignment="Left" TextVerticalAlignment="Center">
+    <Layers>
+    </Layers>
+    <Styles>
+      <Style Name="Default" FontColor="#F4E1C4FF" TextBlur="0" TextOutlineAmount="0" TextGlowRadius="0" FontSize="28" />
+    </Styles>
+  </Brush>
+</Brushes>

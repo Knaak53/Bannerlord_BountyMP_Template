@@ -1,0 +1,16 @@
+<Module>
+     <Name value="MP Bounty"/>
+     <Id value="BountyMP"/>
+     <Version value="v1.8.1"/>
+     <ModuleCategory value="Multiplayer"/>
+     <DependedModules>
+         <DependedModule Id="Native" DependentVersion="e1.8.1" Optional="false"/>
+     </DependedModules>
+     <SubModules>
+         <SubModule>
+             <Name value="BountyMP"/>
+             <DLLName value="BountyMP.dll"/>
+             <SubModuleClassType value="BountyMP.BountyMPSubModule"/>
+         </SubModule>
+     </SubModules>
+ </Module>

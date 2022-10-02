@@ -1,0 +1,11 @@
+C:\Users\wtfkn\Downloads\BountyMP\bin\Win64_Shipping_Server\BountyMP.deps.json
+C:\Users\wtfkn\Downloads\BountyMP\bin\Win64_Shipping_Server\BountyMP.dll
+C:\Users\wtfkn\Downloads\BountyMP\bin\Win64_Shipping_Server\BountyMP.pdb
+C:\Users\wtfkn\Downloads\BountyMP\Source\BountyMP\obj\x64\Server\BountyMP.csproj.AssemblyReference.cache
+C:\Users\wtfkn\Downloads\BountyMP\Source\BountyMP\obj\x64\Server\BountyMP.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\wtfkn\Downloads\BountyMP\Source\BountyMP\obj\x64\Server\BountyMP.AssemblyInfoInputs.cache
+C:\Users\wtfkn\Downloads\BountyMP\Source\BountyMP\obj\x64\Server\BountyMP.AssemblyInfo.cs
+C:\Users\wtfkn\Downloads\BountyMP\Source\BountyMP\obj\x64\Server\BountyMP.csproj.CoreCompileInputs.cache
+C:\Users\wtfkn\Downloads\BountyMP\Source\BountyMP\obj\x64\Server\BountyMP.csproj.CopyComplete
+C:\Users\wtfkn\Downloads\BountyMP\Source\BountyMP\obj\x64\Server\BountyMP.dll
+C:\Users\wtfkn\Downloads\BountyMP\Source\BountyMP\obj\x64\Server\BountyMP.pdb

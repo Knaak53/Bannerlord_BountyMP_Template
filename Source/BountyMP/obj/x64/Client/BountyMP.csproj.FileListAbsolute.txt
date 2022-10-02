@@ -1,0 +1,14 @@
+C:\Users\wtfkn\Downloads\BountyMP\Source\BountyMP\obj\x64\Client\BountyMP.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\wtfkn\Downloads\BountyMP\Source\BountyMP\obj\x64\Client\BountyMP.AssemblyInfoInputs.cache
+C:\Users\wtfkn\Downloads\BountyMP\Source\BountyMP\obj\x64\Client\BountyMP.AssemblyInfo.cs
+C:\Users\wtfkn\Downloads\BountyMP\Source\BountyMP\obj\x64\Client\BountyMP.csproj.CoreCompileInputs.cache
+C:\Users\wtfkn\Downloads\BountyMP\bin\Win64_Shipping_Client\BountyMP.deps.json
+C:\Users\wtfkn\Downloads\BountyMP\bin\Win64_Shipping_Client\BountyMP.dll
+C:\Users\wtfkn\Downloads\BountyMP\bin\Win64_Shipping_Client\BountyMP.pdb
+C:\Users\wtfkn\Downloads\BountyMP\Source\BountyMP\obj\x64\Client\BountyMP.csproj.CopyComplete
+C:\Users\wtfkn\Downloads\BountyMP\Source\BountyMP\obj\x64\Client\BountyMP.dll
+C:\Users\wtfkn\Downloads\BountyMP\Source\BountyMP\obj\x64\Client\BountyMP.pdb
+F:\Steam\steamapps\common\Mount & Blade II Bannerlord\Modules\BountyMP\bin\Win64_Shipping_Client\BountyMP.deps.json
+F:\Steam\steamapps\common\Mount & Blade II Bannerlord\Modules\BountyMP\bin\Win64_Shipping_Client\BountyMP.dll
+F:\Steam\steamapps\common\Mount & Blade II Bannerlord\Modules\BountyMP\bin\Win64_Shipping_Client\BountyMP.pdb
+C:\Users\wtfkn\Downloads\BountyMP\Source\BountyMP\obj\x64\Client\BountyMP.csproj.AssemblyReference.cache

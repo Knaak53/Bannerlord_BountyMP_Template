@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "lbQu+bBGFAH1HWym/YJSer1jsZAoVDQETYQh5/YnV6q06lEa/13d3I0+0Tk711r9MrDYzFuAiIpnrv6DyMQ2+g==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\wtfkn\\Downloads\\BountyMP\\Source\\BountyMP\\BountyMP.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\wtfkn\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "C:\\Users\\wtfkn\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}

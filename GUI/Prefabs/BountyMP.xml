@@ -1,0 +1,46 @@
+<Prefab>
+  <Constants>
+    <Constant Name="UserProfile.Width" Value="70" />
+    <Constant Name="UserProfile.Height" Value="70" />
+
+    <Constant Name="AvatarFrame.Width" Additive="2" BrushLayer="Default" BrushName="MPEscapeMenu.AvatarFrame" BrushValueType="Width" />
+    <Constant Name="AvatarFrame.Height" Additive="2" BrushLayer="Default" BrushName="MPEscapeMenu.AvatarFrame" BrushValueType="Height" />
+  </Constants>
+  <Window>
+    <Widget WidthSizePolicy="StretchToParent" HeightSizePolicy="StretchToParent" IsVisible="@IsEnabled">
+      <Children>
+
+        <!--Server Countdown Timer-->
+        <Widget WidthSizePolicy="Fixed" HeightSizePolicy="Fixed" SuggestedWidth="70" SuggestedHeight="26" HorizontalAlignment="Center" VerticalAlignment="Top" MarginTop="15" Sprite="BlankWhiteSquare_9" Color="#000000DD">
+          <Children>
+            <TextWidget Id="CountdownText" WidthSizePolicy="StretchToParent" HeightSizePolicy="CoverChildren" PositionYOffset="3" Brush="MPHUD.CountdownText" Text="@RemainingRoundTime" />
+          </Children>
+        </Widget>
+
+        <Widget WidthSizePolicy="Fixed" HeightSizePolicy="CoverChildren" SuggestedWidth="300" HorizontalAlignment="Left" MarginLeft="10" VerticalAlignment="Top">
+          <Children>
+            <ListPanel DataSource="{Players}" WidthSizePolicy="StretchToParent" HeightSizePolicy="CoverChildren" StackLayout.LayoutMethod="VerticalBottomToTop">
+              <ItemTemplate>
+                <Widget WidthSizePolicy="StretchToParent" HeightSizePolicy="Fixed" SuggestedHeight="80">
+                  <Children>
+                    <ValueBasedVisibilityWidget WidthSizePolicy="StretchToParent" HeightSizePolicy="Fixed" SuggestedHeight="50" VerticalAlignment="Center" Sprite="BlankWhiteSquare_9" Color="#942003ff" WatchType="Equal" IndexToBeVisible="0" IndexToWatch="@TeamIndex"/>
+                    <ValueBasedVisibilityWidget WidthSizePolicy="StretchToParent" HeightSizePolicy="Fixed" SuggestedHeight="50" VerticalAlignment="Center" Sprite="BlankWhiteSquare_9" Color="#030a94ff" WatchType="Equal" IndexToBeVisible="1" IndexToWatch="@TeamIndex"/>
+                    <ImageIdentifierWidget Id="AvatarImage" DataSource="{Avatar}" WidthSizePolicy="Fixed" HeightSizePolicy="Fixed" SuggestedWidth="!UserProfile.Width" SuggestedHeight="!UserProfile.Height" HorizontalAlignment="Left" VerticalAlignment="Center" AdditionalArgs="@AdditionalArgs" ImageId="@Id" ImageTypeCode="@ImageTypeCode" MaterialAlphaFactor="0.7" />
+                    <ListPanel WidthSizePolicy="Fixed" HeightSizePolicy="CoverChildren" SuggestedWidth="220" MarginLeft="80" VerticalAlignment="Center" StackLayout.LayoutMethod="HorizontalLeftToRight">
+                      <Children>
+                        <TextWidget WidthSizePolicy="StretchToParent" HeightSizePolicy="CoverChildren" Brush="MPBounty.Info.Text" Text="@Name"/>  
+                        <TextWidget WidthSizePolicy="Fixed" HeightSizePolicy="CoverChildren" SuggestedWidth="30" Brush="MPBounty.Info.Text" IntText="@Bounty" />  
+                      </Children>
+                    </ListPanel>
+
+                  </Children>
+                </Widget>
+              </ItemTemplate>
+            </ListPanel>
+          </Children>
+        </Widget> 
+
+      </Children>
+    </Widget>
+  </Window>
+</Prefab>
